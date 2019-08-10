@@ -1,0 +1,17 @@
+body {
+  background-color: #1959c1;
+  color: #ccdaf2;
+}
+
+/* https://coolors.co/ccdaf2-1959c1-82b1ff-043077-0d2751 */
+
+.container {
+  text-align: center;
+}
+
+.weatherbox {
+  display: inline-block;
+  padding: 50px;
+  border: 3px solid #82b1ff;
+  border-radius: 10px;
+}
