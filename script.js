@@ -13,6 +13,7 @@ function displayWeather(){
                     document.getElementById("humidity").innerHTML = json.main["humidity"] + "% Humidity";
                     document.getElementById("conditions").innerHTML = json.weather[0]["main"];
                     document.getElementById("city").innerHTML = json.name;
+                    document.getElementById("wind").innerHTML = "Wind: " + json.wind["speed"].toFixed(0) + " mph"
                 });
             });
         } else{
